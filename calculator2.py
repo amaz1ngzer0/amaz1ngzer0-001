@@ -57,7 +57,7 @@ try:
     
         netpays.append(netpay)
 
-    for n in range(len(names)):
+    for n in range(len(nums)):
         print(str(nums[n]) + ':' + format(netpays[n],'.2f'))
 
 #可能抛出异常的代码结束
